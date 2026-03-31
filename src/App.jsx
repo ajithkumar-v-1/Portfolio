@@ -195,15 +195,15 @@ export default function App() {
         <div className="hero__content">
           <div className="hero__badge">Available for freelance work</div>
           <h1 className="hero__title">
-            I build websites<br />
-            <span className="hero__title--accent">that generate leads.</span>
+            I help businesses get more customers<br />
+            <span className="hero__title--accent">with high-converting websites.</span>
           </h1>
           <p className="hero__sub">
             Full Stack Developer from Chennai. I've delivered 3 live business websites for real clients — logistics, B2B trading, and more. I handle everything from design to deployment.
           </p>
           <div className="hero__actions">
             <button className="btn btn--primary" onClick={() => scrollTo("Work")}>
-              See My Work
+              View Results
             </button>
             <a
               href="https://wa.me/918248967426"
@@ -212,23 +212,23 @@ export default function App() {
               className="btn btn--ghost"
             >
               <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-              WhatsApp Me
+              Get Your Website
             </a>
           </div>
           <div className="hero__stats">
             <div className="hero__stat">
-              <span className="hero__stat-num">3</span>
-              <span className="hero__stat-label">Live client sites</span>
+              <span className="hero__stat-num">3+</span>
+              <span className="hero__stat-label">Businesses Helped</span>
             </div>
             <div className="hero__stat-divider" />
             <div className="hero__stat">
-              <span className="hero__stat-num">2+</span>
-              <span className="hero__stat-label">Years building</span>
+              <span className="hero__stat-num">Real Client Projects</span>
+              <span className="hero__stat-label">(Not Tutorials)</span>
             </div>
             <div className="hero__stat-divider" />
             <div className="hero__stat">
               <span className="hero__stat-num">100%</span>
-              <span className="hero__stat-label">Project delivery rate</span>
+              <span className="hero__stat-label">Delivery Rate</span>
             </div>
           </div>
         </div>
@@ -243,7 +243,7 @@ export default function App() {
         <div className="container">
           <div className="section__header">
             <span className="section__tag">Work</span>
-            <h2 className="section__title">Live projects — real clients</h2>
+            <h2 className="section__title">Real Results for Real Businesses</h2>
             <p className="section__sub">Not tutorial projects. These are live businesses in Chennai that use these sites every day.</p>
           </div>
           <div className="projects">
@@ -294,6 +294,8 @@ export default function App() {
                             <span key={s} className="project-card__pill">{s}</span>
                           ))}
                         </div>
+                    
+
                         <a
                           href={p.url}
                           target="_blank"
@@ -319,9 +321,10 @@ export default function App() {
         <div className="container about__grid">
           <div className="about__left">
             <span className="section__tag">About</span>
-            <h2 className="section__title">Chennai-based.<br />Client-focused.</h2>
+            <h2 className="section__title">From idea to deployment<br />I handle everything so you can focus on your business.</h2>
             <p className="about__body">
-              I'm Ajithkumar V — a full stack developer who builds and deploys real business websites. I graduated with a B.Com from St. Thomas College, Chennai in 2024, which means I understand business problems, not just code.
+             I help businesses build a strong online presence and generate leads through high-converting websites.
+Unlike typical developers, I focus on solving business problems — not just writing code.
             </p>
             <p className="about__body">
               I've worked with logistics companies, steel traders, and trading firms — handling the full development lifecycle from understanding the client's problem to deployment with a custom domain. My clients don't need to touch any technical work.
@@ -349,7 +352,7 @@ export default function App() {
                   <span className="about__role">Full Stack Developer</span>
                   <span className="about__location">
                     <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                    Chennai, Tamil Nadu
+                    india
                   </span>
                 </div>
               </div>
@@ -418,9 +421,9 @@ export default function App() {
         <div className="container contact__grid">
           <div className="contact__left">
             <span className="section__tag">Contact</span>
-            <h2 className="section__title">Let's build something.</h2>
+            <h2 className="section__title">Ready to get more customers for your business?</h2>
             <p className="contact__sub">
-              Got a business that needs a website? Or a project that needs a developer? I'm available for freelance work — let's talk.
+              Tell me about your business — I’ll handle the rest. Currently available for 2 freelance projects this month.
             </p>
             <div className="contact__direct">
               <a href="mailto:ajithkumar19092004@gmail.com" className="contact__item">
@@ -475,7 +478,7 @@ export default function App() {
               <button
                 type="submit"
                 className={`btn btn--primary btn--full ${formState === "sending" ? "btn--loading" : ""}`}
-                disabled={formState === "sending" || formState === "sent"}
+               disabled={formState === "sending"}
               >
                 {formState === "idle" && "Send Message"}
                 {formState === "sending" && "Sending..."}
