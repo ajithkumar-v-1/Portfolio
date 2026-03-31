@@ -555,7 +555,19 @@ img { max-width: 100%; }
   flex-shrink: 0;
   opacity: 0.7;
 }
-
+.project-card_outcome {
+  margin-top: 16px;
+  font-size: 14px;
+  color: var(--text-2);
+  font-style: italic;
+}
+.project-card__outcome-label {
+  font-size: 11px;
+  color: var(--text-3);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 6px;
+}
 /* expanded section */
 .project-card__detail {
   margin-top: 24px;

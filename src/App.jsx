@@ -16,7 +16,8 @@ const PROJECTS = [
     solution:
       "Built a responsive full-stack site with service pages and a backend-connected inquiry system. Buyers now find them on Google and submit inquiries directly.",
     stack: ["React.js", "EmailJS", "Tailwind CSS", "Netlify"],
-    highlight: "Online presence created from scratch",
+    outcome: "Increased customer inquiries through website",
+    highlight: "Now receiving online customer inquiries",
   },
   {
     id: 2,
@@ -30,6 +31,7 @@ const PROJECTS = [
     solution:
       "Built a product catalogue with an online quotation request system. Bulk buyers can now specify product, quantity, and location — all leads go straight to the owner's inbox.",
     stack: ["React.js", "EmailJS", "Tailwind CSS", "Netlify"],
+     outcome: "Increased customer inquiries through website",
     highlight: "Quotation system → more B2B leads",
   },
   {
@@ -44,6 +46,7 @@ const PROJECTS = [
     solution:
       "End-to-end website with product listings, lead capture forms, and full deployment. Client needed zero technical involvement — I handled everything.",
     stack: ["React.js", "EmailJS", "Tailwind CSS", "Netlify"],
+     outcome: "Increased customer inquiries through website",
     highlight: "Full lifecycle — zero client involvement needed",
   },
 ];
@@ -199,12 +202,10 @@ export default function App() {
             <span className="hero__title--accent">with high-converting websites.</span>
           </h1>
           <p className="hero__sub">
-            Full Stack Developer from Chennai. I've delivered 3 live business websites for real clients — logistics, B2B trading, and more. I handle everything from design to deployment.
+            I design and build websites that turn visitors into real customers.
+                      From idea to deployment — I handle everything so you can focus on your business.
           </p>
           <div className="hero__actions">
-            <button className="btn btn--primary" onClick={() => scrollTo("Work")}>
-              View Results
-            </button>
             <a
               href="https://wa.me/918248967426"
               target="_blank"
@@ -324,7 +325,7 @@ export default function App() {
         <div className="container about__grid">
           <div className="about__left">
             <span className="section__tag">About</span>
-            <h2 className="section__title">From idea to deployment<br />I handle everything so you can focus on your business.</h2>
+            <h2 className="section__title">Built for businesses <br />Not just for looks — for results.</h2>
             <p className="about__body">
              I help businesses build a strong online presence and generate leads through high-converting websites.
 Unlike typical developers, I focus on solving business problems — not just writing code.
