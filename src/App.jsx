@@ -365,9 +365,9 @@ export default function App() {
               <span>Available now · Usually replies within 2 hours</span>
             </div>
             <div className="contact__direct">
-              <a href="mailto:ajithkumar19092004@gmail.com" className="contact__item">
+              <a href="mailto:ajithdigitaldev@gmail.com" className="contact__item">
                 <span className="contact__icon">✉</span>
-                ajithkumar19092004@gmail.com
+                ajithdigitaldev@gmail.com
               </a>
               <a href="https://wa.me/918248967426" target="_blank" rel="noreferrer" className="contact__item">
                 <span className="contact__icon">💬</span>
